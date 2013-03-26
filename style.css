@@ -8,7 +8,7 @@ h1 {
     font-family: Futura, sans-serif;
 }
 
-img {
+img.kitty {
     background-color: green;
     margin: auto;
     display: block;
