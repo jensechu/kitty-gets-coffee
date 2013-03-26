@@ -24,5 +24,8 @@ $ ->
       fish.css 'display', 'none'
       setTimeout resetKitty, 1500
       
-  fish.draggable()
-  #feed the kitty
+  fish.draggable
+    start: ->
+      kitty.attr 'src', 'images/kitty_hungry.png'
+    stop: ->
+      setTimeout resetKitty, 1500
